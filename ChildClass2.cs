@@ -7,7 +7,7 @@ class Teacher : Person
     {
         return subject;
     }
-     public void Teach()
+    public void Teach()
     {
         Console.WriteLine($"Teacher is teaching {subject}");
     }
